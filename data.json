@@ -13,7 +13,7 @@
     "bodyFont": "Cormorant Garamond"
   },
   "music": {
-    "src": "",
+    "src": "assets/uploads/lagu-mw8nfbwbg62m.mp3",
     "title": ""
   },
   "cover": {
@@ -23,7 +23,12 @@
     "dateText": "",
     "guestLabel": "Kepada Bapak/Ibu/Saudara/i",
     "defaultGuest": "Tamu Undangan",
-    "buttonText": "Buka Undangan"
+    "buttonText": "Buka Undangan",
+    "imageView": {
+      "zoom": 2.1,
+      "x": 0,
+      "y": -13
+    }
   },
   "opening": {
     "greeting": "Om Swastyastu",
@@ -35,7 +40,12 @@
     "childOf": "Putra pertama dari pasangan",
     "father": "Bapak I Wayan Sudiarta",
     "mother": "Ibu Ni Made Ratni",
-    "address": "Br. Contoh, Ds. Contoh, Kec. Ubud, Kab. Gianyar, Bali"
+    "address": "Br. Contoh, Ds. Contoh, Kec. Ubud, Kab. Gianyar, Bali",
+    "photoView": {
+      "zoom": 2.8,
+      "x": -5,
+      "y": -39
+    }
   },
   "bride": {
     "photo": "assets/uploads/bride-mw8krehlazzx.jpg",
@@ -43,7 +53,12 @@
     "childOf": "Putri kedua dari pasangan",
     "father": "Bapak I Nyoman Darma",
     "mother": "Ibu Ni Ketut Sari",
-    "address": "Br. Contoh, Ds. Contoh, Kec. Mengwi, Kab. Badung, Bali"
+    "address": "Br. Contoh, Ds. Contoh, Kec. Mengwi, Kab. Badung, Bali",
+    "photoView": {
+      "zoom": 2.55,
+      "x": -13,
+      "y": -41
+    }
   },
   "verse": {
     "text": "Ihaiva stam ma vi yaustam, visvam ayur vyasnutam, kridantau putrair naptrbhih, modamanau sve grhe. (Rg Veda X.85.42)\n\nWahai pasangan suami-isteri, semoga kalian tetap bersatu dan tidak pernah terpisahkan. Semoga kalian mencapai hidup penuh kebahagiaan, tinggal di rumah yang penuh kegembiraan bersama seluruh keturunanmu."
