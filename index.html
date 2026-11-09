@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Undangan Pawiwahan</title>
+  <meta name="description" content="Undangan pernikahan digital">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Undangan Pawiwahan">
+  <meta property="og:description" content="Kami mengundang Bapak/Ibu/Saudara/i untuk hadir dan memberikan doa restu.">
+  <meta name="theme-color" content="#7a2e2e">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Allura&family=Cinzel:wght@400;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Great+Vibes&family=Playfair+Display:wght@400;600&family=Parisienne&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="locked">
+  <!-- Seluruh konten dirender dari data.json oleh assets/js/app.js. Jangan edit konten di file ini. -->
+  <div id="app"></div>
+
+  <button id="musicBtn" class="music-btn" type="button" aria-label="Putar / jeda musik" hidden>
+    <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M12 3v10.55A4 4 0 1 0 14 17V7h4V3h-6z"/></svg>
+  </button>
+  <audio id="bgm" loop preload="none"></audio>
+
+  <div id="lightbox" class="lightbox" hidden>
+    <button class="lb-close" type="button" aria-label="Tutup">&times;</button>
+    <button class="lb-prev" type="button" aria-label="Sebelumnya">&#8249;</button>
+    <img alt="">
+    <button class="lb-next" type="button" aria-label="Berikutnya">&#8250;</button>
+  </div>
+
+  <noscript><p style="padding:2rem;text-align:center">Aktifkan JavaScript untuk melihat undangan.</p></noscript>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

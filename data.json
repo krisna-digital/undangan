@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "title": "Undangan Pawiwahan | Arya & Lestari",
+    "description": "Merupakan suatu kehormatan dan kebahagiaan bagi kami, apabila Bapak/Ibu/Saudara/i berkenan hadir memberikan doa restu kepada kami"
+  },
+  "theme": {
+    "primary": "#7a2e2e",
+    "accent": "#b8893c",
+    "bg": "#fbf6ec",
+    "text": "#3b2a20",
+    "headingFont": "Cinzel",
+    "scriptFont": "Great Vibes",
+    "bodyFont": "Cormorant Garamond"
+  },
+  "music": {
+    "src": "",
+    "title": ""
+  },
+  "cover": {
+    "image": "assets/img/cover.svg",
+    "eyebrow": "Undangan Pawiwahan",
+    "title": "Arya & Lestari",
+    "dateText": "Sabtu, 16 Januari 2027",
+    "guestLabel": "Kepada Bapak/Ibu/Saudara/i",
+    "defaultGuest": "Tamu Undangan",
+    "buttonText": "Buka Undangan"
+  },
+  "opening": {
+    "greeting": "Om Swastyastu",
+    "text": "Atas Asung Kertha Wara Nugraha Ida Sang Hyang Widhi Wasa/Tuhan Yang Maha Esa kami bermaksud mengundang Bapak/Ibu/Saudara/i pada Upacara Manusa Yadnya Pawiwahan (Pernikahan) Putra dan Putri kami."
+  },
+  "groom": {
+    "photo": "assets/img/groom.svg",
+    "name": "I Gede Arya Pratama",
+    "childOf": "Putra pertama dari pasangan",
+    "father": "Bapak I Wayan Sudiarta",
+    "mother": "Ibu Ni Made Ratni",
+    "address": "Br. Contoh, Ds. Contoh, Kec. Ubud, Kab. Gianyar, Bali"
+  },
+  "bride": {
+    "photo": "assets/img/bride.svg",
+    "name": "Ni Luh Ayu Lestari",
+    "childOf": "Putri kedua dari pasangan",
+    "father": "Bapak I Nyoman Darma",
+    "mother": "Ibu Ni Ketut Sari",
+    "address": "Br. Contoh, Ds. Contoh, Kec. Mengwi, Kab. Badung, Bali"
+  },
+  "verse": {
+    "text": "Ihaiva stam ma vi yaustam, visvam ayur vyasnutam, kridantau putrair naptrbhih, modamanau sve grhe. (Rg Veda X.85.42)\n\nWahai pasangan suami-isteri, semoga kalian tetap bersatu dan tidak pernah terpisahkan. Semoga kalian mencapai hidup penuh kebahagiaan, tinggal di rumah yang penuh kegembiraan bersama seluruh keturunanmu."
+  },
+  "events": [
+    {
+      "title": "Waktu & Tempat",
+      "day": "Sabtu",
+      "dateText": "16 Januari 2027",
+      "timeText": "10.00 WITA - Selesai",
+      "place": "Kediaman Mempelai Pria",
+      "address": "Br. Contoh, Ds. Contoh, Kec. Ubud, Kab. Gianyar, Bali",
+      "mapUrl": "https://www.google.com/maps?q=-8.5069,115.2625"
+    }
+  ],
+  "closing": {
+    "text": "Merupakan suatu kebahagiaan dan kehormatan bagi kami, apabila Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa restu.",
+    "thanks": "Atas kehadiran dan doa restunya kami ucapkan terima kasih.",
+    "salam": "Om Shanti Shanti Shanti Om",
+    "familyIntro": "Kami yang berbahagia",
+    "familyNames": "Kel. I Wayan Sudiarta\n&\nKel. I Nyoman Darma"
+  },
+  "countdown": {
+    "title": "Hari Bahagia",
+    "datetime": "2027-01-16T10:00",
+    "tz": "+08:00"
+  },
+  "gallery": {
+    "title": "Momen Bahagia",
+    "photos": [
+      { "src": "assets/img/g1.svg", "caption": "" },
+      { "src": "assets/img/g2.svg", "caption": "" },
+      { "src": "assets/img/g3.svg", "caption": "" },
+      { "src": "assets/img/g4.svg", "caption": "" },
+      { "src": "assets/img/g5.svg", "caption": "" },
+      { "src": "assets/img/g6.svg", "caption": "" }
+    ]
+  },
+  "story": {
+    "title": "Cerita Kami",
+    "videoUrl": "",
+    "intro": "",
+    "items": []
+  },
+  "rsvp": {
+    "enabled": true,
+    "title": "Mohon Doa Restu",
+    "mode": "whatsapp",
+    "whatsapp": "081234567890",
+    "endpoint": "",
+    "listUrl": ""
+  },
+  "gift": {
+    "enabled": true,
+    "title": "Wedding Gift",
+    "text": "Tanpa mengurangi rasa hormat, bagi tamu yang ingin mengirimkan tanda kasih melalui transfer, berikut informasi rekening kami:",
+    "accounts": [
+      { "bank": "BCA", "number": "1234567890", "name": "I Gede Arya Pratama" },
+      { "bank": "BRI", "number": "0987654321", "name": "Ni Luh Ayu Lestari" }
+    ]
+  },
+  "footer": {
+    "title": "Matur Suksma",
+    "text": "Merupakan kebahagiaan bagi kami atas kehadiran dan doa restu Bapak/Ibu/Saudara/i.",
+    "socials": [],
+    "credit": ""
+  }
+}
