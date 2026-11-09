@@ -17,10 +17,10 @@
     "title": ""
   },
   "cover": {
-    "image": "assets/img/cover.svg",
-    "eyebrow": "Undangan Pawiwahan",
+    "image": "assets/uploads/cover-mw8knyvob616.jpg",
+    "eyebrow": "Pawiwahan",
     "title": "Arya & Lestari",
-    "dateText": "Sabtu, 16 Januari 2027",
+    "dateText": "",
     "guestLabel": "Kepada Bapak/Ibu/Saudara/i",
     "defaultGuest": "Tamu Undangan",
     "buttonText": "Buka Undangan"
@@ -30,7 +30,7 @@
     "text": "Atas Asung Kertha Wara Nugraha Ida Sang Hyang Widhi Wasa/Tuhan Yang Maha Esa kami bermaksud mengundang Bapak/Ibu/Saudara/i pada Upacara Manusa Yadnya Pawiwahan (Pernikahan) Putra dan Putri kami."
   },
   "groom": {
-    "photo": "assets/img/groom.svg",
+    "photo": "assets/uploads/groom-mw8kppr05pdt.jpg",
     "name": "I Gede Arya Pratama",
     "childOf": "Putra pertama dari pasangan",
     "father": "Bapak I Wayan Sudiarta",
@@ -38,7 +38,7 @@
     "address": "Br. Contoh, Ds. Contoh, Kec. Ubud, Kab. Gianyar, Bali"
   },
   "bride": {
-    "photo": "assets/img/bride.svg",
+    "photo": "assets/uploads/bride-mw8krehlazzx.jpg",
     "name": "Ni Luh Ayu Lestari",
     "childOf": "Putri kedua dari pasangan",
     "father": "Bapak I Nyoman Darma",
@@ -74,17 +74,35 @@
   "gallery": {
     "title": "Momen Bahagia",
     "photos": [
-      { "src": "assets/img/g1.svg", "caption": "" },
-      { "src": "assets/img/g2.svg", "caption": "" },
-      { "src": "assets/img/g3.svg", "caption": "" },
-      { "src": "assets/img/g4.svg", "caption": "" },
-      { "src": "assets/img/g5.svg", "caption": "" },
-      { "src": "assets/img/g6.svg", "caption": "" }
+      {
+        "src": "assets/uploads/galeri-mw8ks8cniopi.jpg",
+        "caption": ""
+      },
+      {
+        "src": "assets/uploads/galeri-mw8ks8dppvjh.jpg",
+        "caption": ""
+      },
+      {
+        "src": "assets/uploads/galeri-mw8ks8eucfmx.jpg",
+        "caption": ""
+      },
+      {
+        "src": "assets/uploads/galeri-mw8ks8glwwrl.jpg",
+        "caption": ""
+      },
+      {
+        "src": "assets/uploads/galeri-mw8ks8ic3iqn.jpg",
+        "caption": ""
+      },
+      {
+        "src": "assets/uploads/galeri-mw8ks8jkzds7.jpg",
+        "caption": ""
+      }
     ]
   },
   "story": {
     "title": "Cerita Kami",
-    "videoUrl": "",
+    "videoUrl": "https://www.youtube.com/watch?v=gS9o1FAszdk&list=RDGaDFArGvyZ8&index=26",
     "intro": "",
     "items": []
   },
@@ -101,13 +119,21 @@
     "title": "Wedding Gift",
     "text": "Tanpa mengurangi rasa hormat, bagi tamu yang ingin mengirimkan tanda kasih melalui transfer, berikut informasi rekening kami:",
     "accounts": [
-      { "bank": "BCA", "number": "1234567890", "name": "I Gede Arya Pratama" },
-      { "bank": "BRI", "number": "0987654321", "name": "Ni Luh Ayu Lestari" }
+      {
+        "bank": "BCA",
+        "number": "1234567890",
+        "name": "I Gede Arya Pratama"
+      },
+      {
+        "bank": "BRI",
+        "number": "0987654321",
+        "name": "Ni Luh Ayu Lestari"
+      }
     ]
   },
   "footer": {
     "title": "Matur Suksma",
-    "text": "Merupakan kebahagiaan bagi kami atas kehadiran dan doa restu Bapak/Ibu/Saudara/i.",
+    "text": "by Krisna Digital",
     "socials": [],
     "credit": ""
   }
