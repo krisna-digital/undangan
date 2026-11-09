@@ -28,6 +28,7 @@
   };
   const safeColor = (c) => (/^#[0-9a-f]{3,8}$/i.test(String(c || '').trim()) ? c.trim() : '');
   const safeFont = (f) => String(f || '').replace(/[^\w\s-]/g, '').trim();
+  const imageTransform = (v) => { v = v && typeof v === 'object' ? v : {}; const z = Math.min(3, Math.max(1, Number(v.zoom) || 1)); const x = Math.min(50, Math.max(-50, Number(v.x) || 0)); const y = Math.min(50, Math.max(-50, Number(v.y) || 0)); return `transform:translate(${x}%,${y}%) scale(${z});transform-origin:center center`; };
 
   /* ---------- potongan markup ---------- */
   const divider = () => '<div class="divider" aria-hidden="true"><span></span><i></i><span></span></div>';
@@ -43,7 +44,7 @@
     const c = d.cover || {};
     const bg = src(c.image);
     return `<section id="sec-cover" class="cover${state.opened ? ' opened gone' : ''}">
-      ${bg ? `<img class="cover-bg" src="${esc(bg)}" alt="">` : ''}
+      ${bg ? `<img class="cover-bg" style="${imageTransform(c.imageView)}" src="${esc(bg)}" alt="">` : ''}
       ${flower('k1')}${flower('k2')}
       <div class="cover-inner">
         <p class="eyebrow">${esc(c.eyebrow)}</p>
@@ -72,7 +73,7 @@
     p = p || {};
     const photo = src(p.photo);
     return `<article class="person reveal">
-      ${photo ? `<div class="arch"><img src="${esc(photo)}" alt="${esc(p.name)}" loading="lazy"></div>` : ''}
+      ${photo ? `<div class="arch"><img style="${imageTransform(p.photoView)}" src="${esc(photo)}" alt="${esc(p.name)}" loading="lazy"></div>` : ''}
       <h3 class="pname">${esc(p.name)}</h3>
       <p class="muted">${esc(p.childOf)}</p>
       <p class="parents">${esc(p.father)}<br><span class="amp">&amp;</span><br>${esc(p.mother)}</p>
@@ -140,7 +141,7 @@
     return `<section id="sec-gallery" class="sec"><div class="wrap">
       ${head('', g.title || 'Galeri')}
       <div class="gallery reveal">${photos
-        .map((p, i) => `<a href="${esc(src(p.src))}" data-lb="${i}" aria-label="Foto ${i + 1}"><img src="${esc(src(p.src))}" alt="${esc(p.caption || 'Galeri ' + (i + 1))}" loading="lazy"></a>`)
+        .map((p, i) => `<a href="${esc(src(p.src))}" data-lb="${i}" aria-label="Foto ${i + 1}"><img style="${imageTransform(p.view)}" src="${esc(src(p.src))}" alt="${esc(p.caption || 'Galeri ' + (i + 1))}" loading="lazy"></a>`)
         .join('')}</div></div></section>`;
   }
 
@@ -317,6 +318,11 @@
       '<main id="main">' +
       [opening, couple, verse, events, countdown, gallery, story, rsvp, gift, footer].map((fn) => fn(d)).join('') +
       '</main>';
+    const sectionColors = d.sectionColors || {};
+    Object.entries(sectionColors).forEach(([id, color]) => {
+      const el = document.getElementById(id);
+      if (el && /^#[0-9a-f]{3,8}$/i.test(String(color || '').trim())) el.style.backgroundColor = color.trim();
+    });
     document.body.classList.toggle('locked', !state.opened && !PREVIEW);
 
     const items = $$('.reveal');

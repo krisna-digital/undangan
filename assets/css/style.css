@@ -170,3 +170,11 @@ blockquote { font-style: italic; font-size: 1.08rem; line-height: 1.8; }
   .reveal { transition: none; }
   html { scroll-behavior: auto; }
 }
+
+/* Foto mempelai dapat diperbesar dan digeser dari Editor Undangan. */
+.arch { overflow: hidden; }
+.arch img { display: block; }
+
+/* Area galeri mengunci foto saat zoom/geser agar tidak keluar dari bingkai. */
+.gallery a { display: block; overflow: hidden; }
+.gallery img { display: block; }
